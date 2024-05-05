@@ -1,5 +1,9 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
+/*
+  Lucas
+*/
+
 Given("That I am on the homepage", () => {
   cy.visit("/");
   cy.get(".text-4xl").should("exist");
